@@ -16,6 +16,8 @@ horizontalnav:
   node: samples
 
 guides:
+- title: "Docs Hackathon: April 17-22nd, 2017"
+  path: /hackathon/
 - sectiontitle: Get Docker
   section:
   - path: /engine/installation/
@@ -25,7 +27,7 @@ guides:
   - path: /docker-for-windows/install/
     title: Docker for Windows
   - path: /docker-ee-for-windows/install/
-    title: Docker EE for Windows Server   
+    title: Docker EE for Windows Server
   - sectiontitle: Docker for Linux
     section:
     - path: /engine/installation/linux/ubuntu/
@@ -113,7 +115,7 @@ guides:
     - path: /toolbox/faqs/troubleshoot/
       title: Troubleshooting
   - path: /release-notes/
-    title: Docker Release Notes
+    title: Docker release notes
 - sectiontitle: Get Started
   section:
   - path: /learn/
@@ -1267,6 +1269,14 @@ manuals:
           title: Web-based access
         - path: /datacenter/ucp/2.1/guides/user/access-ucp/cli-based-access/
           title: CLI-based access
+      - sectiontitle: Content trust
+        section:
+        - path: /datacenter/ucp/2.1/guides/user/content-trust/
+          title: Run only images you trust
+        - path: /datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/
+          title: Manage trusted repositories
+        - path: /datacenter/ucp/2.1/guides/user/content-trust/continuous-integration/
+          title: Use trusted images for continuous integration
       - sectiontitle: Deploy an application
         section:
         - path: /datacenter/ucp/2.1/guides/user/services/deploy-a-service/
