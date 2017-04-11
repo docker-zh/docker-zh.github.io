@@ -423,7 +423,7 @@ An entry with the ip address and hostname will be created in `/etc/hosts` inside
 
 ### group_add
 
-> [Version 2 file format](compose-versioning.md#version-2) and up.
+> [Version 2 file format](compose-versioning.md#version-2) only.
 
 Specify additional groups (by name or number) which the user inside the
 container will be a member of. Groups must exist in both the container and the
@@ -436,11 +436,14 @@ details.
 
 A full example:
 
-    version: '2'
-    services:
-        image: alpine
-        group_add:
-          - mail
+```
+version: '2'
+services:
+  myservice:
+    image: alpine
+    group_add:
+      - mail
+```
 
 Running `id` inside the created container will show that the user belongs to
 the `mail` group, which would not have been the case if `group_add` were not
@@ -1188,9 +1191,9 @@ refer to it within the Compose file:
 ## Compose documentation
 
 - [User guide](/compose/index.md)
-- [Installing Compose](/compose/install/)
+- [Installing Compose](/compose/install.md)
 - [Compose file versions and upgrading](compose-versioning.md)
-- [Get started with Django](/compose/django/)
-- [Get started with Rails](/compose/rails/)
-- [Get started with WordPress](/compose/wordpress/)
+- [Get started with Django](/compose/django.md)
+- [Get started with Rails](/compose/rails.md)
+- [Get started with WordPress](/compose/wordpress.md)
 - [Command line reference](/compose/reference/)
