@@ -2,23 +2,20 @@
 {% capture superscript-link %}[1](#edge-footnote){: style="vertical-align: super; font-size: smaller;" }{% endcapture %}
 {: style="width: 75%" }
 
-| Month    | Docker CE Edge    | Docker CE Stable  | Docker EE         |
+| 月份    | Docker社区前瞻版     | Docker社区稳定版  | Docker企业版        |
 |----------|-------------------|-------------------|-------------------|
-| January  | {{ green-check }} |                   |                   |
-| February | {{ green-check }} |                   |                   |
-| March    | {{ green-check }}{{ superscript-link }}  | {{ green-check }} | {{ green-check }} |
-| April    | {{ green-check }} |                   |                   |
-| May      | {{ green-check }} |                   |                   |
-| June     | {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
-| July     | {{ green-check }} |                   |                   |
-| August   | {{ green-check }} |                   |                   |
-| September| {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
-| October  | {{ green-check }} |                   |                   |
-| November | {{ green-check }} |                   |                   |
-| December | {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
+| 一月    | {{ green-check }} |                   |                   |
+| 二月    | {{ green-check }} |                   |                   |
+| 三月    | {{ green-check }}{{ superscript-link }}  | {{ green-check }} | {{ green-check }} |
+| 四月    | {{ green-check }} |                   |                   |
+| 五月    | {{ green-check }} |                   |                   |
+| 六月    | {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
+| 七月    | {{ green-check }} |                   |                   |
+| 八月    | {{ green-check }} |                   |                   |
+| 九月    | {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
+| 十月    | {{ green-check }} |                   |                   |
+| 十一月  | {{ green-check }} |                   |                   |
+| 十二月  | {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
 
-`1`: On Linux distributions, these releases will only appear in the `stable`
-     channels, not the `edge` channels. For that reason, on Linux distributions,
-     you need to enable both channels.
-{: id="edge-footnote" }
+`1`: 在Linux发行版中, 这些发布记录仅出现在`稳定版stable`中，而不是`前瞻版edge`. 因此,使用Linux发行版需要同时订阅两个版本。{: id="edge-footnote" }
 

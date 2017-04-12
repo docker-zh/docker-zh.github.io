@@ -6,89 +6,58 @@ redirect_from:
 - /engine/installation/linux/
 - /engine/installation/linux/frugalware/
 - /engine/installation/frugalware/
-title: Install Docker
+title: 安装Docker
 ---
 
-## Docker editions
+## Docker版本
 
-Docker is available in two editions:
+Docker有两个可用版本：
 
-- **Docker Enterprise Edition (Docker EE)** is designed for enterprise
-  development and IT teams who build, ship, and run business critical
-  applications in production at scale. Docker EE is integrated, certified, and
-  supported to provide enterprises with the most secure container platform in
-  the industry to modernize all applications. For more information
-  about Docker EE, including purchasing options, see
-  [Docker Enterprise Edition](https://www.docker.com/enterprise-edition/){: target="_blank" class="_" }.
+- **Docker企业版（Docker Enterprise Edition，简称Docker EE）**是为在生产环境中以弹性的方式构建、承载、运行商业级别的应用程序的企业开发及或IT团队设计的。Docker企业版受到行业内的集成、认证及支持，为企业提供业内最安全的容器平台以现代化的方式运行应用程序。获取包括支付方式在内的更多信息，访问：[Docker企业版](https://www.docker.com/enterprise-edition/){: target="_blank" class="_" }.
 
-- **Docker Community Edition (Docker CE)** is ideal for developers and small
-  teams looking to get started with Docker and experimenting with
-  container-based apps. Docker CE is available on many platforms, from desktop
-  to cloud to server. Docker CE is available for macOS and Windows and provides
-  a native experience to help you focus on learning Docker. You can build and
-  share containers and automate the development pipeline all from a single
-  environment.
+- **Docker社区版（Docker Community Edition，简称Docker CE）**适用于初次使用Docker并尝试基于容器构建应用的开发者或小型团队。Docker社区版在桌面、服务器及云端均可获得。Docker社区版为Windows和macOS提供了原生的实验环境帮助用户专注于学习Docker。用户可以通过单一的环境来构建并分享容器，使开发管线自动化。Docker社区版分为**stable稳定版**和**edge前瞻版**。
 
-  Docker CE has both **stable** and **edge** channels.
+  - **稳定版stable**每季度发布一次并且提供四个月的支持。
+  - **前瞻版edge**每个月发布一次并仅在当月提供技术支持。在Linux发行版订阅了前瞻版本的用户，也应该同时订阅稳定版。
 
-  - **Stable** builds are released once per quarter and are supported for 4
-    months.
-  - **Edge** builds are released once per month, and are supported for that
-    month only. If you subscribe to the Edge channel on Linux distributions, you
-    should also subscribe to the Stable channel.
+  获取关于Docker社区版的更多信息，访问：[Docker社区版](https://www.docker.com/community-edition/){: target="_blank" class="_" }。
 
-  For more information about Docker CE, see
-  [Docker Community Edition](https://www.docker.com/community-edition/){: target="_blank" class="_" }.
+- **Docker云**是基于Docker，使用户可以通过不同的云服务提供商发布应用程序的平台。获取使用Docker云的更多信息，访问[Docker云](#docker-cloud)。
 
-- **Docker Cloud** is a platform run by Docker which allows you to deploy your
-  application using multiple cloud providers such as Digital Ocean, Packet,
-  SoftLink, or to bring your own device. For more information about using Docker
-  Cloud, see [Docker Cloud](#docker-cloud).
+## 支持的平台
 
-## Platform support matrix
-
-Docker CE and Docker EE run on Linux, Cloud, Windows, and macOS platforms. Use
-the following matrix to choose the best installation path for you. The links
-under **Platform** take you straight to the installation instructions for that
-platform.
+Docker社区版和企业版可以在Linux, 云, Windows还有macOS平台运行。使用下面的表格来选择适用自己的安装方式。链接会直接跳转至该**平台**的安装指南。
 
 {% include docker_platform_matrix.md %}
 
-See also [Docker Cloud](#on-docker-cloud) for setup instructions for
-Digital Ocean, Packet, SoftLink, or Bring Your Own Cloud.
+访问[Docker云](#on-docker-cloud)获得Digital Ocean、Packet、SoftLink及自有设备的安装指南。
 
-## Time-based release schedule
+## 基于时间的发布日程
 
-Starting with Docker 17.03, Docker uses a time-based release schedule, outlined
-below.
+从Docker17.03起，Docker使用基于时间的发布日程，概述如下。
 
 {% include docker_schedule_matrix.md %}
 
-### Prior releases
+### 早期版本
 
-Instructions for installing prior releases of Docker can be found in the
-[Docker archives](/docsarchive/).
+在[Docker档案](/docsarchive/)获取安装早期Docker的版本的简介。
 
 ## Docker Cloud
 
-You can use Docker Cloud to automatically provision and manage your cloud instances.
+还可以使用Docker云自动化 提供并管理您的云实例。
 
-* [Amazon Web Services setup guide](/docker-cloud/infrastructure/link-aws.md)
-* [DigitalOcean setup guide](/docker-cloud/infrastructure/link-do.md)
-* [Microsoft Azure setup guide](/docker-cloud/infrastructure/link-azure.md)
-* [Packet setup guide](/docker-cloud/infrastructure/link-packet.md)
-* [SoftLayer setup guide](/docker-cloud/infrastructure/link-softlayer.md)
-* [Use the Docker Cloud Agent to Bring your Own Host](/docker-cloud/infrastructure/byoh.md)
+* [Amazon Web Services设置向导](/docker-cloud/infrastructure/link-aws.md)
+* [DigitalOcean设置向导](/docker-cloud/infrastructure/link-do.md)
+* [Microsoft Azure设置向导](/docker-cloud/infrastructure/link-azure.md)
+* [Packet设置向导](/docker-cloud/infrastructure/link-packet.md)
+* [SoftLayer设置向导](/docker-cloud/infrastructure/link-softlayer.md)
+* [通过Docker云代理使用自有设备](/docker-cloud/infrastructure/byoh.md)
 
-We also provide official Docker solutions for running on AWS and Azure. You can read
-up on what Docker for AWS and Docker for Azure have to offer you
-[here](/docker-for-aws/why/) and [here](/docker-for-azure/why/) respectively.
+我们同样提供在AWS和Azure使用Docker的官方解决方案。你可以分别在[这里](/docker-for-aws/why/) 和 [这里](/docker-for-azure/why/)详细了解AWS的Docker和Azure的Docker的理由。
 
-* [Docker for AWS](/docker-for-aws/)
-* [Docker for Azure](/docker-for-azure/)
+* [AWS的Docker](/docker-for-aws/)
+* [Azure的Docker](/docker-for-azure/)
 
-## Get started
+## 开始使用
 
-After setting up Docker, try learning the basics over at
-[Getting started with Docker](/engine/getstarted/), then learn how to deploy
-full-blown applications in our [app tutorial](/engine/getstarted-voting-app/).
+安装好Docker后, 通过此链接[开始使用Docker](/engine/getstarted/)学习Docker的基础知识，然后在[应用教程](/engine/getstarted-voting-app/)学习如何发布成熟的应用程序。

@@ -1,4 +1,4 @@
-name: Docker Documentation
+name: Docker中文文档
 markdown: kramdown
 kramdown:
   input: GFM
