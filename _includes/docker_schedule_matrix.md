@@ -17,5 +17,6 @@
 | 十一月  | {{ green-check }} |                   |                   |
 | 十二月  | {{ green-check }}{{ superscript-link }} | {{ green-check }} | {{ green-check }} |
 
-`1`: 在Linux发行版中, 这些发布记录仅出现在`稳定版stable`中，而不是`前瞻版edge`. 因此,使用Linux发行版需要同时订阅两个版本。{: id="edge-footnote" }
+`1`: 在Linux发行版中, 这些发布记录仅出现在`稳定版stable`中，而不是`前瞻版edge`. 因此,使用Linux发行版需要同时订阅两个版本。
+{: id="edge-footnote" }
 

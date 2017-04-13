@@ -8,49 +8,42 @@ notags: true
 ---
 {% assign page.title = site.name %}
 
-## Docs Hackathon, April 17-22nd, 2017
+## 文档黑客马拉松，2017年4月17日至22日
 
 <a href="/hackathon/"><img src="docs-hackathon-2.png" alt="Docker Docs Hackathon, April 17-22nd, 2017" style="max-width: 100%"></a>
 
-Fix docs bugs to claim the points, and cash in your points for prizes in [the swag store](http://www.cafepress.com/dockerdocshackathon). Every 10 points is worth $1 USD in store credit. Happening all DockerCon week, from April 17-21, 2017.
+修正文档中的错误来换取点数, 通过点数来换取[the swag store](http://www.cafepress.com/dockerdocshackathon)中的奖品. 每10点可以在购物过程中抵用1美元。从DockerCon周活动期间：2017年4月17日至21日。
 
-[Hackathon details](/hackathon/){: class="button outline-btn" style="margin:20px"}[View available bugs on GitHub](https://github.com/docker/docker.github.io/milestone/9){: class="button outline-btn" style="margin:20px"} [Visit the rewards store](http://www.cafepress.com/dockerdocshackathon){: class="button outline-btn" style="margin:20px"}
+[黑客马拉松明细](/hackathon/){: class="button outline-btn" style="margin:20px"}[查看Github上值得修复的bug](https://github.com/docker/docker.github.io/milestone/9){: class="button outline-btn" style="margin:20px"} [访问奖励商店](http://www.cafepress.com/dockerdocshackathon){: class="button outline-btn" style="margin:20px"}
 
-## Introduction to Docker
+## Docker简介
 
 
-Docker packages your app with its dependencies, freeing you from worrying about
-your system configuration, and making your app more portable.
+Docker可以将应用与依赖项一并打包，使开发者从系统配置的困扰中解放出来, 并增强应用的便携性。
 
 {% if site.edge == true %}
 {% capture ce-edge-section %}
 
 ## Docker CE Edge
 
-The Docker CE Edge channel provides monthly releases which allow you to try
-new features of Docker and verify bug fixes quickly. Edge releases are only
-supported for one month, and a given Edge release will not receive any updates
-once a new edge release is available.
+Docker社区前瞻版提供以月为周期进行发布，在使用新功能的同时还可以快速地验证bug的修复情况。前瞻版本的支持周期仅为一个月。一旦新的前瞻版本放出，不再对旧版进行更新。 
 
-Stable releases are not published to the Edge channel, so Linux repository users
-still need to subscribe to the Stable channel as well.
+发布的稳定版不在前瞻版发布，因此 Linux用户需要同时订阅稳定版。
 
-Commercial support is not available for Docker CE.
+Docker社区版不受商业支持。
 
-For information about all Docker release channels and expectations about
-support, see [Docker channels](/engine/installation/#docker-channels).
+获取更多关于Docker版本订阅及预期支持, 访问[Docker channels](/engine/installation/#docker-channels).
 
 <!-- This button toggles the div below, and hides itself when clicked -->
 <a id="ce-edge-readmore-btn" onclick="$(this).hide(); ga('send', 'event', 'ce-edge-readmore', 'click', 'CE engagement');" data-target="#ce-edge-readmore" data-toggle="collapse" class="button outline-btn collapse in">Read more about Docker CE Edge releases</a>
 
 <div markdown="1" id="ce-edge-readmore" class="collapse" data-target="#ce-edge-readmore-btn" data-toggle="collapse">
 
-This page lists features that are only available in Docker CE Edge releases.
-Where applicable, the API and CLI reference documentation has been updated to
-reflect these features, but **full documentation for a given feature may not be
-available until a Docker CE Stable release incorporates the feature**.
+此页列举的特征仅在Docker社区前瞻版可用。
+一旦新特性可用，API和CLI依赖文档就会覆盖下述特性。
+但**Docker社区稳定版在收录特性前，完整文档陈列的部分功能可能不可用。**
 
-### Docker CE Edge new features
+### Docker社区前瞻版新特性
 
 <ul class="nav nav-tabs">
   <li class="active"><a data-toggle="tab" data-target="#1704">17.04</a></li>
@@ -59,20 +52,20 @@ available until a Docker CE Stable release incorporates the feature**.
 <div markdown="1" class="tab-content">
 <div markdown="1" id="1704" class="tab-pane fade in active">
 
-#### Docker CE Edge 17.04
+#### Docker社区前瞻版 17.04
 
-The following major features and changes are included in Docker CE Edge 17.04.
-Continue reading, or go straight to [API and CLI](#api-and-cli),
+下述主要特征和改变将会包括在Docker社区前瞻版17.04中。
+继续阅读或直接跳转至：[API and CLI](#api-and-cli),
 [Daemon](#daemon), [Dockerfile](#dockerfile), [Services](#services), or
 [Stacks](#stacks).
 
-[Read the full release notes](https://github.com/docker/docker/releases/tag/v17.04.0-ce){: target="_blank" class="_" }
+[阅读完整的发布记录](https://github.com/docker/docker/releases/tag/v17.04.0-ce){: target="_blank" class="_" }
 
 ##### API and CLI
 
 - Add `--device-cgroup-rule` flag to give containers access to devices that appear
   after the container is started. {% include github-pr.md pr=22563 %}
-
+  
 - Allow swarm nodes to join with `--availability=drain` to prevent them from
   taking non-manager workloads. {% include github-pr.md pr=24993 %}
 

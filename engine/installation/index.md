@@ -53,7 +53,7 @@ Docker社区版和企业版可以在Linux, 云, Windows还有macOS平台运行�
 * [SoftLayer设置向导](/docker-cloud/infrastructure/link-softlayer.md)
 * [通过Docker云代理使用自有设备](/docker-cloud/infrastructure/byoh.md)
 
-我们同样提供在AWS和Azure使用Docker的官方解决方案。你可以分别在[这里](/docker-for-aws/why/) 和 [这里](/docker-for-azure/why/)详细了解AWS的Docker和Azure的Docker的理由。
+我们同样提供在AWS和Azure使用Docker的官方解决方案。你可以分别在[这里](/docker-for-aws/why/)和[这里](/docker-for-azure/why/)详细了解AWS的Docker和Azure的Docker的优势。
 
 * [AWS的Docker](/docker-for-aws/)
 * [Azure的Docker](/docker-for-azure/)
