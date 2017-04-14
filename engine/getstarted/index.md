@@ -9,48 +9,46 @@ redirect_from:
 title: Get started with Docker
 ---
 
-This is a tutorial for non-technical users who are interested in learning more about Docker. By following these steps, you'll learn fundamental Docker features while working through some simple tasks.
+这篇教程适用于对Docker感兴趣的非技术人员。下述若干步骤，通过运行几个简单的任务来学习Docker的基本特性。
 
-Depending on how you got here, you may or may not have already downloaded Docker for your platform and installed it.
+访问这个页面意味着你可能已经下载并安装好对应平台的Docker了。
 
-## Got Docker?
+## 获取Docker？
 
-If you haven't yet downloaded Docker for your platform or installed it, go to [Get Docker](step_one.md#step-1-get-docker).
+如果还未下载并安装所在平台的Docker, 跳转至：[获取Docker](step_one.md#step-1-get-docker).
 
 ## Ready to start working with Docker?
 
-If you have already downloaded and installed Docker, you are ready to run Docker commands! Go to [Verify your installation](step_one.md#step-3-verify-your-installation).
+如果已下载或安装好Docker，docker命令就已可用，跳转至：[验证Docker的安装](step_one.md#step-3-verify-your-installation).
 
 
-### What you'll learn and do
+### 你将学会:
 
-You'll learn how to:
+* 在所在平台安装Docker软件
+* 在容器中运行软件镜像
+* 在Docker Hub中浏览镜像
+* 创建自己的镜像并在容器中运行
+* 创建Docker Hub账号及镜像仓库
+* 创建自己的镜像
+* 将镜像推送至Docker Hub供他人使用
 
-* install Docker software for your platform
-* run a software image in a container
-* browse for an image on Docker Hub
-* create your own image and run it in a container
-* create a Docker Hub account and an image repository
-* create an image of your own
-* push your image to Docker Hub for others to use
+为了避免在时犯错，建议自由探索钱逐步的按照教程来做。整个过程大约需要45分钟的时间来完成。
 
-The getting started was user tested to reduce the chance of users having problems. For the best chance of success, follow the steps as written the first time before exploring on your own. It takes approximately 45 minutes to complete.
+## 尝试Docker
 
-## Flavors of Docker
+本入门级教程在Mac、Windows、Linux及Docker Toolbox（旧版的Mac和Windows系统）上运行结果是相同的。
 
-This tutorial is designed as a getting started with Docker, and works the same whether you are using Docker for Mac, Docker for Windows, Docker on Linux, or Docker Toolbox (for older Mac and Windows systems).
+如果使用的是Docker Toolbox, 可以在预制环境而不是命令行终端，通过Docker Quickstart Terminal来运行Docker命令。
 
-If you are using Docker Toolbox, you can use the Docker Quickstart Terminal to run Docker commands in a pre-configured environment instead of opening a command line terminal.
+如果使用的是Mac、Windows或Linux下的Docker，Docker将会在后台运行，标准命令行终端可以随时执行Docker命令。
 
-If you are using Docker for Mac, Docker for Windows, or Docker on Linux, you will have Docker running in the background, and your standard command line terminal is already set up to run Docker commands.
+## 我需要多少个常用的命令行？
 
-## How much command line savvy do I need?
+教程从使用Docker命令行接口命令输入到终端窗口开始。能够打开熟悉的shell或terminal并且在环境中使用简单的命令就够了，并不需要对命令行非常了解。如果还会文件夹导航及基本文件操作（移动、复制、编辑、保存、读取）更好。
 
-The getting started tour uses Docker Engine CLI commands entered on the command line of a terminal window. You don't need to be a wizard at the command line, but you should be familiar with how to open your favorite shell or terminal, and run basic commands in that environment. It helps (but isn't required) to know how to navigate a directory tree, manipulate files (move, copy, edit, save, read), list running processes, and so forth.
+## 接下来
 
-## Where to go next
-
-Go to [the next page to install](step_one.md).
+访问下一页[安装Docker](step_one.md).
 
 
 &nbsp;

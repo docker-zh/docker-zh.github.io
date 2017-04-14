@@ -6,64 +6,55 @@ redirect_from:
 title: Docker Registry
 ---
 
-## What it is
+## Docker Registry是什么？
 
-The Registry is a stateless, highly scalable server side application that stores
-and lets you distribute Docker images. The Registry is open-source, under the
-permissive [Apache license](http://en.wikipedia.org/wiki/Apache_License).
+Registry是无状态、高弹性的服务端应用， 用来储存或发布Docker镜像。Registry以[Apache license](http://en.wikipedia.org/wiki/Apache_License)协议开源.
 
-## Why use it
+## 为什么使用Docker Registry
 
 You should use the Registry if you want to:
 
- * tightly control where your images are being stored
- * fully own your images distribution pipeline
- * integrate image storage and distribution tightly into your in-house development workflow
+ * 控制镜像储存的位置
+ * 拥有自己的镜像发布管线
+ * 在本地工作流中，使镜像储存与发布紧密的结合在一起。
+ 
+## 其他方案
 
-## Alternatives
+[Docker Hub](https://hub.docker.com)提供免费、托管的仓库来实现零维护随时可用的效果以及其他附加特性（如：组织账号、自动化编译等等）。
 
-Users looking for a zero maintenance, ready-to-go solution are encouraged to
-head-over to the [Docker Hub](https://hub.docker.com), which provides a
-free-to-use, hosted Registry, plus additional features (organization accounts,
-automated builds, and more).
+需要商业支持的Registry版本不妨尝试：[Docker Trusted Registry](/datacenter/dtr/2.1/guides/index.md).
 
-Users looking for a commercially supported version of the Registry should look
-into [Docker Trusted Registry](/datacenter/dtr/2.1/guides/index.md).
+## 必要条件
 
-## Requirements
+Registry可以与**version 1.6.0 及以上版本的Docker引擎**协同工作。 
+如果必须使用旧版的Docker，可以尝试[old python registry](https://github.com/docker/docker-registry).
 
-The Registry is compatible with Docker engine **version 1.6.0 or higher**. If
-you really need to work with older Docker versions, you should look into the
-[old python registry](https://github.com/docker/docker-registry).
+## Registry基础操作
 
-## TL;DR
-
-Start your registry
+启动Registry
 
     docker run -d -p 5000:5000 --name registry registry:2
 
-Pull (or build) some image from the hub
+从Docker Hub拉取或构造镜像
 
     docker pull ubuntu
 
-Tag the image so that it points to your registry
+给镜像打标签使其指向私有Registry
 
     docker tag ubuntu localhost:5000/myfirstimage
 
-Push it
+推送镜像
 
     docker push localhost:5000/myfirstimage
 
-Pull it back
+拉取镜像
 
     docker pull localhost:5000/myfirstimage
 
-Now stop your registry and remove all data
+停止Registry并移除所有数据
 
     docker stop registry && docker rm -v registry
 
-## Next
+## 接下来
 
-You should now read the [detailed introduction about the
-registry](introduction.md), or jump directly to [deployment
-instructions](deploying.md).
+阅读[Registry的详细介绍](introduction.md)，或跳转至[部署教程](deploying.md).
