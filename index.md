@@ -8,35 +8,33 @@ notags: true
 ---
 {% assign page.title = site.name %}
 
-## Docs Hackathon, April 17-22nd, 2017
+## 文档黑客马拉松，2017年4月17日至22日
 
 <a href="/hackathon/"><img src="docs-hackathon-2.png" alt="Docker Docs Hackathon, April 17-22nd, 2017" style="max-width: 100%"></a>
 
-Fix docs bugs to claim the points, and cash in your points for prizes in [the swag store](http://www.cafepress.com/dockerdocshackathon). Every 10 points is worth $1 USD in store credit. Happening all DockerCon week, from April 17-21, 2017.
+修正文档中的错误来换取点数, 通过点数来换取[the swag store](http://www.cafepress.com/dockerdocshackathon)中的奖品. 每10点可以在购物过程中抵用1美元。从DockerCon周活动期间：2017年4月17日至21日。
 
-[Hackathon details](/hackathon/){: class="button outline-btn" style="margin:20px"}[View available bugs on GitHub](https://github.com/docker/docker.github.io/milestone/9){: class="button outline-btn" style="margin:20px"} [Visit the rewards store](http://www.cafepress.com/dockerdocshackathon){: class="button outline-btn" style="margin:20px"}
+[黑客马拉松明细](/hackathon/){: class="button outline-btn" style="margin:20px"}[查看Github上值得修复的bug](https://github.com/docker/docker.github.io/milestone/9){: class="button outline-btn" style="margin:20px"} [访问奖励商店](http://www.cafepress.com/dockerdocshackathon){: class="button outline-btn" style="margin:20px"}
 
-## Introduction to Docker
+## Docker简介
+
 
 <div class="row">
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
-### Learn Docker basics
+### 学习Docker基础
 
-Get started learning Docker concepts, tools, and commands. The examples show you
-how to build, push, and pull Docker images, and run them as containers. This
-tutorial stops short of teaching you how to deploy applications.
+开始学习Docker的概念、工具和命令。样例中展示了如何构建、推送、拉取Docker镜像，并将它们作为容器运行。
+这篇教程详细的介绍了如何发布应用程序。
 
-[Start the basic tutorial](/engine/getstarted/){: class="button outline-btn"}
+[开始基础教程](/engine/getstarted/){: class="button outline-btn"}
 </div>
 
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
-### Define and deploy apps in Swarm Mode
+### 在Swarm模式下定义并发布应用
 
-Learn how to relate containers to each other, define them as services, and
-configure an application stack ready to deploy at scale in a production
-environment. Highlights Compose Version 3 new features and swarm mode.
+学习在生产环境中将容器彼此关联，定义服务，配置应用程序栈进行弹性部署。使用Compose Version 3的新特性Highlights以及集群模式。
 
-[Start the application tutorial](/engine/getstarted-voting-app/){: class="button outline-btn"}
+[学习启动一个Docker应用](/engine/getstarted-voting-app/){: class="button outline-btn"}
 </div>
 </div>
 
@@ -81,8 +79,8 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="docker-for-mac/"> <img src="../images/apple_48.svg" alt="Docker for Mac"> </a>
                 </div>
-                <h3 id="docker-for-mac"><a href="docker-for-mac/">Docker for Mac</a></h3>
-                <p>A native application using the macOS sandbox security model which delivers all Docker tools to your Mac.</p>
+                <h3 id="docker-for-mac"><a href="docker-for-mac/">Mac上的Docker</a></h3>
+                <p>基于macOS沙箱安全模型的原生应用，提供Mac上所有Docker工具。</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
@@ -90,8 +88,8 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="docker-for-windows/"> <img src="../images/windows_48.svg" alt="Docker for Windows"> </a>
                 </div>
-                <h3 id="docker-for-windows"><a href="docker-for-windows/">Docker for Windows</a></h3>
-                <p>A native Windows application which delivers all Docker tools to your Windows computer.</p>
+                <h3 id="docker-for-windows"><a href="docker-for-windows/">Windows上的Docker</a></h3>
+                <p>原生Windows应用程序，提供Windows电脑上所有Docker工具。</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
@@ -99,8 +97,8 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="engine/installation/linux/ubuntu/"> <img src="../images/linux_48.svg" alt="Docker for Linux"> </a>
                 </div>
-                <h3 id="docker-for-linux"><a href="engine/installation/linux/ubuntu/">Docker for Linux</a></h3>
-                <p>Install Docker on a computer which already has a Linux distribution installed.</p>
+                <h3 id="docker-for-linux"><a href="engine/installation/linux/ubuntu/">Linux上的Docker</a></h3>
+                <p>在已经安装Linux发行版的计算机上安装Docker。</p>
             </div>
         </div>
     </div>
@@ -152,8 +150,8 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="datacenter/ucp/2.1/guides/"> <img src="../images/UCP_48.svg" alt="Docker Universal Control Plane"> </a>
                 </div>
-                <h3 id="ucp"><a href="datacenter/ucp/2.1/guides/">Docker Universal Control Plane</a></h3>
-                <p>(UCP) Manage a cluster of on-premise Docker hosts like a single machine with this enterprise product.</p>
+                <h3 id="ucp"><a href="datacenter/ucp/2.1/guides/">Docker通用控制面板</a></h3>
+                <p>通过Docker通用控制面板(Docker Universal Control Plane，简称UCP)像管理单个主机那样管理Docker集群。</p>
             </div>
         </div>
     <!--DTR-->
@@ -162,9 +160,10 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="datacenter/dtr/2.2/guides/"> <img src="../images/dtr_48.svg" alt="Docker Trusted Registry"> </a>
                 </div>
-                <h3 id="dtr"><a href="datacenter/dtr/2.2/guides/">Docker Trusted Registry</a></h3>
-                <p>(DTR) An enterprise image storage solution you can install behind a firewall to manage images and access.</p>
-            </div>
+
+                <h3 id="dtr"><a href="datacenter/dtr/2.2/guides/">Docker信任的Registry</a></h3>
+                <p>在防火墙下安装企业镜像存储解决方案(Docker Tusted Registry，简称：DTR)管理镜像及权限。</p>
+	    </div>
         </div>
     </div>
     <!-- end real row-->
