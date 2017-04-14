@@ -38,30 +38,30 @@ notags: true
 </div>
 </div>
 
-## Docker Editions
+## Docker版本
 
 <div class="row">
-    <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
+<div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-    ### Docker企业版
+### Docker企业版
 
-    Docker企业版（Docker Enterprise Edition，简称Docker EE）**是为在生产环境中以弹性的方式构建、承载、运行商业级别的应用程序的企业开发及或IT团队设计的。Docker企业版受到行业内的集成、认证及支持，为企业提供业内最安全的容器平台以现代化的方式运行应用程序，Docker企业版提供高级[扩展](#docker-ee-add-ons) 例如：UCP和DTR.
+Docker企业版（Docker Enterprise Edition，简称Docker EE）**是为在生产环境中以弹性的方式构建、承载、运行商业级别的应用程序的企业开发及或IT团队设计的。Docker企业版受到行业内的集成、认证及支持，为企业提供业内最安全的容器平台以现代化的方式运行应用程序，Docker企业版提供高级[扩展](#docker-ee-add-ons) 例如：UCP和DTR.
 
-    [了解更过关于Docker企业版的信息](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
-    </div>
+[了解更过关于Docker企业版的信息](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+</div>
 
-    <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
+<div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-    ### Docker社区版
+### Docker社区版
 
-    适用于初次使用Docker并尝试基于容器构建应用的开发者或小型团队。Docker社区版在桌面、服务器及云端均可获得。Docker社区版为Windows和macOS提供了原生的实验环境帮助用户专注于学习Docker。用户可以通过单一的环境来构建并分享容器，使开发管线自动化。前瞻版本包括最新的特性，稳定版本相对可靠。
+适用于初次使用Docker并尝试基于容器构建应用的开发者或小型团队。Docker社区版在桌面、服务器及云端均可获得。Docker社区版为Windows和macOS提供了原生的实验环境帮助用户专注于学习Docker。用户可以通过单一的环境来构建并分享容器，使开发管线自动化。前瞻版本包括最新的特性，稳定版本相对可靠。
 
-    [了解更多关于Docker社区版的信息](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
-    </div>
+[了解更多关于Docker社区版的信息](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+</div>
 </div><!-- end row -->
 
 
-## Run Docker anywhere
+## 在任何平台使用Docker
 
 <div class="component-container">
     <!--start row-->
