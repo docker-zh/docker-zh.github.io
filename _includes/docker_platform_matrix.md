@@ -1,11 +1,6 @@
 {% capture green-check %}![yes](/engine/installation/images/green-check.svg){: style="height: 14px"}{% endcapture %}
 
-<<<<<<< HEAD
-{% capture matrix %}
 | 平台                                                                                             | Docker企业版        | Docker社区版x86_64 |  Docker社区版ARM |
-=======
-| Platform                                                                                             | Docker EE         | Docker CE x86_64 | Docker CE ARM |
->>>>>>> docker/master
 | ---------------------------------------------------------------------------------------------------- | ----------------- | ----------------- | ----------------- |
 | [Ubuntu](/engine/installation/linux/ubuntu.md)                                                       | {{ green-check }} | {{ green-check }} | {{ green-check }} |
 | [Debian](/engine/installation/linux/debian.md)                                                       |                   | {{ green-check }} | {{ green-check }} |
