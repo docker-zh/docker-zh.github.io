@@ -41,31 +41,23 @@ notags: true
 ## Docker Editions
 
 <div class="row">
-<div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
+    <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-### Docker Enterprise Edition
+    ### Docker企业版
 
-Designed for enterprise development and IT teams who build, ship, and run
-business critical applications in production at scale. Integrated, certified,
-and supported to provide enterprises with the most secure container platform in
-the industry to modernize all applications. Docker EE Advanced comes with enterprise
-[add-ons](#docker-ee-add-ons) like UCP and DTR.
+    Docker企业版（Docker Enterprise Edition，简称Docker EE）**是为在生产环境中以弹性的方式构建、承载、运行商业级别的应用程序的企业开发及或IT团队设计的。Docker企业版受到行业内的集成、认证及支持，为企业提供业内最安全的容器平台以现代化的方式运行应用程序，Docker企业版提供高级[扩展](#docker-ee-add-ons) 例如：UCP和DTR.
 
-[Learn more about Docker EE](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
-</div>
+    [了解更过关于Docker企业版的信息](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+    </div>
 
-<div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
+    <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 
-### Docker Community Edition
+    ### Docker社区版
 
-Get started with Docker and experimenting with container-based apps. Docker CE
-is available on many platforms, from desktop to cloud to server. Build and share
-containers and automate the development pipeline from a single environment.
-Choose the Edge channel to get fast access to the latest features, or the Stable
-channel for more predictability.
+    适用于初次使用Docker并尝试基于容器构建应用的开发者或小型团队。Docker社区版在桌面、服务器及云端均可获得。Docker社区版为Windows和macOS提供了原生的实验环境帮助用户专注于学习Docker。用户可以通过单一的环境来构建并分享容器，使开发管线自动化。前瞻版本包括最新的特性，稳定版本相对可靠。
 
-[Learn more about Docker EE](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
-</div>
+    [了解更多关于Docker社区版的信息](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+    </div>
 </div><!-- end row -->
 
 
@@ -112,8 +104,8 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker Cloud"> </a>
                 </div>
-                <h3 id="docker-cloud"><a href="docker-cloud/">Docker Cloud</a></h3>
-                <p>A hosted service for building, testing, and deploying Docker images to your hosts.</p>
+                <h3 id="docker-cloud"><a href="docker-cloud/">Docker云</a></h3>
+                <p>用来构建、测试、发布Docker镜像的托管服务。</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
@@ -122,7 +114,7 @@ channel for more predictability.
                     <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker for AWS"> </a>
                 </div>
                 <h3 id="docker-cloud-providers"><a href="/engine/installation/#platform-support-matrix">Docker for AWS</a></h3>
-                <p>Deploy your Docker apps on AWS.</p>
+                <p>在AWS上部署Docker应用。</p>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 block">
@@ -131,15 +123,15 @@ channel for more predictability.
                     <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker for Azure"> </a>
                 </div>
                 <h3 id="docker-cloud-providers"><a href="/engine/installation/#platform-support-matrix">Docker for Azure</a></h3>
-                <p>Deploy your Docker apps on Azure.</p>
+                <p>在Azure上部署Docker应用。</p>
             </div>
         </div>
     </div>
 </div>
 
-## Components
+## 组件
 
-<h5>Docker EE Add-ons</h5>
+<h5>Docker企业版扩展</h5>
 
 <div class="component-container">
     <!--start row-->
@@ -160,7 +152,6 @@ channel for more predictability.
                 <div class="component-icon">
                     <a href="datacenter/dtr/2.2/guides/"> <img src="../images/dtr_48.svg" alt="Docker Trusted Registry"> </a>
                 </div>
-
                 <h3 id="dtr"><a href="datacenter/dtr/2.2/guides/">Docker信任的Registry</a></h3>
                 <p>在防火墙下安装企业镜像存储解决方案(Docker Tusted Registry，简称：DTR)管理镜像及权限。</p>
 	    </div>
@@ -181,7 +172,7 @@ channel for more predictability.
                     <a href="compose/overview/"> <img src="../images/compose_48.svg" alt="Docker Compose"> </a>
                 </div>
                 <h3 id="compose"><a href="compose/overview/">Docker Compose</a></h3>
-                <p>Define application stacks built using multiple containers, services, and swarm configurations.</p>
+                <p>使用多个容器、服务、swarm配置来定义应用栈。</p>
             </div>
         </div>
     <!--machine-->
@@ -191,7 +182,7 @@ channel for more predictability.
                     <a href="machine/overview/"> <img src="../images/machine_48.svg" alt="Docker Trusted Registry"> </a>
                 </div>
                 <h3 id="machine"><a href="machine/overview/">Docker Machine</a></h3>
-                <p>Automate container provisioning on your network or in the cloud. Available for Windows, macOS, or Linux.</p>
+                <p>自动化网络或云中的容器供给。Windows、macOS及Linux均可使用</p>
         </div>
     </div>
 </div>
