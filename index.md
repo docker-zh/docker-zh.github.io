@@ -18,6 +18,7 @@ notags: true
 
 ## Docker简介
 
+<<<<<<< HEAD
 
 Docker可以将应用与依赖项打包成容器。解放困扰在系统配置上的开发人员，同时增强应用的便携性。
 
@@ -209,6 +210,8 @@ Docker社区版不受商业支持。
 {{ ce-edge-section | markdownify }}
 {% endif %}
 
+=======
+>>>>>>> docker/master
 <div class="row">
 <div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
 ### 学习Docker基础
@@ -228,7 +231,42 @@ Docker社区版不受商业支持。
 </div>
 </div>
 
+<<<<<<< HEAD
 ## 组件
+=======
+## Docker Editions
+
+<div class="row">
+<div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
+
+### Docker Enterprise Edition
+
+Designed for enterprise development and IT teams who build, ship, and run
+business critical applications in production at scale. Integrated, certified,
+and supported to provide enterprises with the most secure container platform in
+the industry to modernize all applications. Docker EE Advanced comes with enterprise
+[add-ons](#docker-ee-add-ons) like UCP and DTR.
+
+[Learn more about Docker EE](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+</div>
+
+<div markdown="1" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 block">
+
+### Docker Community Edition
+
+Get started with Docker and experimenting with container-based apps. Docker CE
+is available on many platforms, from desktop to cloud to server. Build and share
+containers and automate the development pipeline from a single environment.
+Choose the Edge channel to get fast access to the latest features, or the Stable
+channel for more predictability.
+
+[Learn more about Docker EE](/engine/installation/#platform-support-matrix){: class="button outline-btn"}
+</div>
+</div><!-- end row -->
+
+
+## Run Docker anywhere
+>>>>>>> docker/master
 
 <div class="component-container">
     <!--start row-->
@@ -260,6 +298,7 @@ Docker社区版不受商业支持。
                 <p>在已经安装Linux发行版的计算机上安装Docker。</p>
             </div>
         </div>
+<<<<<<< HEAD
     <!--organic row 2-->
     <!--editions-->
     <div class="col-sm-12 col-md-12 col-lg-4 block">
@@ -270,38 +309,66 @@ Docker社区版不受商业支持。
             <h3 id="editions"><a href="engine/installation/">Docker的版本</a></h3>
             <p>展现Docker平台的表格及桌面、服务器、云服务提供商安装者的超集。</p>
         </div>
+=======
+>>>>>>> docker/master
     </div>
-    <!--compose-->
-        <div class="col-sm-12 col-md-12 col-lg-4 block">
-            <div class="component">
-                <div class="component-icon">
-                    <a href="compose/overview/"> <img src="../images/compose_48.svg" alt="Docker Compose"> </a>
-                </div>
-                <h3 id="compose"><a href="compose/overview/">Docker Compose</a></h3>
-                <p>使用多个容器、服务、集群配置定义应用程序栈。</p>
-        </div>
-    </div>
-    <!--machine-->
-        <div class="col-sm-12 col-md-12 col-lg-4 block">
-            <div class="component">
-                <div class="component-icon">
-                    <a href="machine/overview/"> <img src="../images/machine_48.svg" alt="Docker Trusted Registry"> </a>
-                </div>
-                <h3 id="machine"><a href="machine/overview/">Docker Machine</a></h3>
-                <p>自动化供给网络或云中的容器。Windows、macOS及Linux均可使用。</p>
-        </div>
-    </div>
-    <!--organic row 3-->
-    <!--cloud-->
+</div>
+
+<div class="component-container">
+    <!--start row-->
+    <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
                 <div class="component-icon">
                     <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker Cloud"> </a>
                 </div>
+<<<<<<< HEAD
+                <h3 id="compose"><a href="compose/overview/">Docker Compose</a></h3>
+                <p>使用多个容器、服务、集群配置定义应用程序栈。</p>
+=======
+                <h3 id="docker-cloud"><a href="docker-cloud/">Docker Cloud</a></h3>
+                <p>A hosted service for building, testing, and deploying Docker images to your hosts.</p>
+            </div>
+>>>>>>> docker/master
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker for AWS"> </a>
+                </div>
+<<<<<<< HEAD
+                <h3 id="machine"><a href="machine/overview/">Docker Machine</a></h3>
+                <p>自动化供给网络或云中的容器。Windows、macOS及Linux均可使用。</p>
+=======
+                <h3 id="docker-cloud-providers"><a href="/engine/installation/#platform-support-matrix">Docker for AWS</a></h3>
+                <p>Deploy your Docker apps on AWS.</p>
+            </div>
+>>>>>>> docker/master
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="docker-cloud/"> <img src="../images/cloud_48.svg" alt="Docker for Azure"> </a>
+                </div>
+<<<<<<< HEAD
                 <h3 id="docker-cloud"><a href="docker-cloud/">Docker云</a></h3>
                 <p>用来构建、测试、发布Docker镜像至主机的服务。</p>
+=======
+                <h3 id="docker-cloud-providers"><a href="/engine/installation/#platform-support-matrix">Docker for Azure</a></h3>
+                <p>Deploy your Docker apps on Azure.</p>
+>>>>>>> docker/master
             </div>
         </div>
+    </div>
+</div>
+
+## Components
+
+<h5>Docker EE Add-ons</h5>
+
+<div class="component-container">
+    <!--start row-->
+    <div class="row">
     <!--UCP-->
         <div class="col-sm-12 col-md-12 col-lg-4 block">
             <div class="component">
@@ -318,11 +385,46 @@ Docker社区版不受商业支持。
                 <div class="component-icon">
                     <a href="datacenter/dtr/2.2/guides/"> <img src="../images/dtr_48.svg" alt="Docker Trusted Registry"> </a>
                 </div>
+<<<<<<< HEAD
                 <h3 id="dtr"><a href="datacenter/dtr/2.2/guides/">Docker信任的Registry</a></h3>
                 <p>在防火墙下安装企业镜像存储解决方案(Docker Tusted Registry，简称：DTR)管理镜像及权限。</p>
+=======
+                <h3 id="dtr"><a href="datacenter/dtr/2.2/guides/">Docker Trusted Registry</a></h3>
+                <p>(DTR) An enterprise image storage solution you can install behind a firewall to manage images and access.</p>
+            </div>
+>>>>>>> docker/master
         </div>
     </div>
     <!-- end real row-->
+</div>
+
+<h5>Docker Tools</h5>
+
+<div class="component-container">
+    <!--start row-->
+    <div class="row">
+    <!--compose-->
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="compose/overview/"> <img src="../images/compose_48.svg" alt="Docker Compose"> </a>
+                </div>
+                <h3 id="compose"><a href="compose/overview/">Docker Compose</a></h3>
+                <p>Define application stacks built using multiple containers, services, and swarm configurations.</p>
+            </div>
+        </div>
+    <!--machine-->
+        <div class="col-sm-12 col-md-12 col-lg-4 block">
+            <div class="component">
+                <div class="component-icon">
+                    <a href="machine/overview/"> <img src="../images/machine_48.svg" alt="Docker Trusted Registry"> </a>
+                </div>
+                <h3 id="machine"><a href="machine/overview/">Docker Machine</a></h3>
+                <p>Automate container provisioning on your network or in the cloud. Available for Windows, macOS, or Linux.</p>
+        </div>
     </div>
+</div>
+
+
 <!-- end component-container 2-->
 </div>

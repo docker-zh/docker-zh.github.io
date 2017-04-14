@@ -12,7 +12,6 @@ safe: false
 lsi: false
 url: http://docs.docker-zh.com
 keep_files: ["v1.4", "v1.5", "v1.6", "v1.7", "v1.8", "v1.9", "v1.10", "v1.11", "v1.12", "v1.13"]
-edge: false  # set to true if the next expected release is going to the edge channel
 
 gems:
   - jekyll-redirect-from
@@ -100,14 +99,14 @@ defaults:
       path: "datacenter"
     values:
       ucp_latest_image: "docker/ucp:2.1.3"
-      dtr_latest_image: "docker/dtr:2.2.3"
+      dtr_latest_image: "docker/dtr:2.2.4"
   -
     scope:
       path: "datacenter/dtr/2.2"
     values:
       ucp_version: "2.1"
       dtr_version: "2.2"
-      docker_image: "docker/dtr:2.2.3"
+      docker_image: "docker/dtr:2.2.4"
   -
     scope:
       path: "datacenter/dtr/2.1"
